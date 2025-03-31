@@ -1,6 +1,6 @@
-# ESGProjectA(partially)
+# SustainabilityProjectA(partially)
 # Implementation Guide
-## 5-Week Implementation Project
+## 
 
 ### Project Overview
 This guide outlines the implementation tasks for the ESG Knowledge Graph Reasoning framework based on the research paper. You will be building a knowledge graph-based system that enables semantic reasoning for ESG (Environmental, Social, and Governance) reporting.
@@ -11,7 +11,7 @@ This guide outlines the implementation tasks for the ESG Knowledge Graph Reasoni
 - Metrics sorting and classification
 - Documenting findings for dataset and analysis process
 
-### Week 1: Knowledge Representation Setup
+### Knowledge Representation Setup
 1. **Ontology Implementation**
    - Set up the core ontology with the seven key entities: ReportingFramework, Category, Metric, Model, Implementation, Dataset, and Datasource(Diagram shared previous week)
    - Implement the relationships between these entities as described in Section 4.1 (Shared at previosu week posts)
@@ -21,7 +21,7 @@ This guide outlines the implementation tasks for the ESG Knowledge Graph Reasoni
    - Integrate the SASB materiality map for industry-specific ESG categories (Website shared previous week)
    - Create the necessary entity mappings for your assigned industry(semiconductors etc..)
 
-### Week 2: Reasoning Mechanisms Implementation
+### Reasoning Mechanisms Implementation
 1. **Ontological Reasoning**
    - Implement framework harmonization capabilities using equivalence relationships
    - Set up the class hierarchy reasoning for metrics categorization
@@ -32,7 +32,7 @@ This guide outlines the implementation tasks for the ESG Knowledge Graph Reasoni
    - Create the rule structure for determining required metrics based on industry and framework
    - Test with examples from Section 5.2(Shared at previosu week post)
 
-### Week 3: Advanced Reasoning & Data Integration
+### Advanced Reasoning & Data Integration
 1. **Path-based Reasoning**
    - Implement data lineage and traceability functions
    - Create SPARQL queries for tracing relationships across the knowledge graph
@@ -47,7 +47,7 @@ This guide outlines the implementation tasks for the ESG Knowledge Graph Reasoni
    - Finalize the data processing pipeline for Eurofidai data
    - Implement the RDF transformation logic from Section 6.2(Shared at previosu week posts)
 
-### Week 4: System Architecture & API Development
+### System Architecture & API Development
 1. **Layered Architecture Implementation**
    - Develop the four primary components: Data Layer, Knowledge Graph Layer, Reasoning Engine, and Application Interface
    - Implement the task orchestration logic for coordinating reasoning mechanisms
@@ -57,7 +57,7 @@ This guide outlines the implementation tasks for the ESG Knowledge Graph Reasoni
    - Implement the query service for knowledge retrieval
    - Document your API for future extension
 
-### Week 5: Workflow Implementation & Testing
+### Workflow Implementation & Testing
 1. **Complete Reporting Workflow**
    - Implement the six-step workflow described in Section 7.2(Shared at previosu week posts):
      - Framework and Industry Selection
