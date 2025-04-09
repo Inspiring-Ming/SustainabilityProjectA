@@ -14,7 +14,7 @@ This guide outlines the implementation tasks for the ESG Knowledge Graph Reasoni
 ### Knowledge Representation Setup
 1. **Ontology Implementation**
    - Set up the core ontology with the seven key entities: ReportingFramework, Category, Metric, Model, Implementation, Dataset, and Datasource(Diagram shared previous week)
-   - Implement the relationships between these entities as described in Section 4.1 (Shared at previosu week posts)
+   - Implement the relationships between these entities as described in Section 4.1 (Shared at previous week's posts)
    - Add the semantic constructs: equivalence relationships, property axioms, and class hierarchies
 
 2. **SASB Integration**
@@ -91,8 +91,8 @@ If you complete the core tasks early, consider implementing one of these extensi
 - SASB materiality map (link to be provided)
 - Stardog documentation (for knowledge graph implementation)
 
-### Technical Requirements
-- Use of Stardog for knowledge graph implementation
+### Technical Requirements(alternative solution is acceptable)
+- Use of Stardog(or other alternative solutions) for knowledge graph implementation
 - OWL 2 RL for ontological reasoning
 - SWRL for rule-based reasoning
 - SPARQL 1.1 for path-based reasoning
